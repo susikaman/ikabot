@@ -184,7 +184,7 @@ def activateMiracle(session, event, stdin_fd, predetermined_input):
             return
 
         if island['available']:
-            print('\nThe miracle {} will be activated.\nAfter cooldown, it will be reactivated.').format(island['wonderName'])
+            print('\nThe miracle {} will be activated.\nAfter cooldown, it will be reactivated.'.format(island['wonderName']))
             print('Proceed? [Y/n]')
             activate_miracle_input = read(values=['y', 'Y', 'n', 'N', ''])
             if activate_miracle_input.lower() == 'n':
@@ -216,7 +216,7 @@ def activateMiracle(session, event, stdin_fd, predetermined_input):
             banner()
             iterations = 1000
         else:
-            print('\nThe miracle {} will be activated in {}.\nAfter cooldown, it will be reactivated.').format(island['wonderName'], daysHoursMinutes(island['available_in']))
+            print('\nThe miracle {} will be activated in {}.\nAfter cooldown, it will be reactivated.'.format(island['wonderName'], daysHoursMinutes(island['available_in'])))
             print('Proceed? [Y/n]')
             user_confirm = read(values=['y', 'Y', 'n', 'N', ''])
             if user_confirm.lower() == 'n':
