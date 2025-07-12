@@ -211,7 +211,7 @@ def activateMiracle(session, event, stdin_fd, predetermined_input):
                     break
             wait_time = enddate - currentdate
 
-            print('The miracle {} was activated.').format(island['wonderName'])
+            print('The miracle {} was activated.'.format(island['wonderName']))
             #enter()
             banner()
             iterations = 1000
