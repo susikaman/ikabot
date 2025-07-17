@@ -18,7 +18,7 @@ update_msg = ""
 
 isWindows = os.name == "nt"
 
-version = "Ikabot version: 6.7.0 - 2.2.4\nBuild date: 13.4.2024"
+version = "Ikabot version: 6.7.0 - 2.2.4\nBuild date: 17.4.2024"
 
 default_bner = """
 `7MMF'  `7MM                       `7MM\"""Yp,                 mm
