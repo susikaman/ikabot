@@ -6,7 +6,7 @@ import os
 
 # Version changed automatically by the release pipeline
 IKABOT_VERSION = "7.1.12"
-BUILD_DATE = "8.8.2025"
+BUILD_DATE = "18.8.2025"
 
 
 IKABOT_VERSION_TAG = "v" + IKABOT_VERSION + " - " + BUILD_DATE
