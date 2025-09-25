@@ -230,7 +230,8 @@ def do_it(session, hours, auto_transfer, transfer_amount):
                                 0,  # Sulfur
                             ))
                             
-                            message_log.append(f"Will transfer {transfer_amount:,.0f:,.0f} from {donor_city['name']}.")
+                            message_log.append(f"Will transfer {transfer_amount:,d} from {donor_city['name']}.")
+
                         else:
                             message_log.append(f"No city has sufficient wine to transfer to {city['name']}.")
 
